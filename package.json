@@ -1,0 +1,29 @@
+{
+  "name": "mytodoapp",
+  "version": "1.0.0",
+  "description": "a todo app with jquery",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaozhouwu/MyTodoApp.git"
+  },
+  "keywords": [
+    "todo",
+    "app"
+  ],
+  "author": "xiaozhouwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaozhouwu/MyTodoApp/issues"
+  },
+  "homepage": "https://github.com/xiaozhouwu/MyTodoApp#readme",
+  "dependencies": {
+    "jquery": "^1.9.1",
+    "jquery-datetimepicker": "^2.5.4",
+    "normalize.css": "^5.0.0",
+    "store": "^1.3.20"
+  }
+}

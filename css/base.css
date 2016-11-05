@@ -1,0 +1,157 @@
+/*###########公共样式############*/
+
+*{
+    box-sizing: border-box;
+}
+
+button,
+input,
+textarea{
+    font-family: '微软雅黑', sans-serif;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #556364; 
+    cursor: pointer;
+}
+
+.btn-danger{
+    background-color: #ed5e68;
+}
+
+input,
+textarea{
+    background-color: #eee;
+    box-shadow: inset 2px 2px 2px #aaa;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus{
+    background-color: #fff;
+}
+
+/*###########其它样式############*/
+
+html{
+    font-family: '微软雅黑', sans-serif;
+}
+
+body {
+    background: url(../img/todo_bg.jpg) no-repeat;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.add-task input[type=text]{
+    float: left;
+    width: 84%;
+    margin-right: 1%;
+}
+
+.add-task button{
+    width: 15%;
+}
+
+.task-list {
+    margin: 15px 0;
+    padding: 0;
+}
+
+.task-item {
+    margin:5px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #aaa;
+    background-color: #fff;
+    transition: background .1s;
+}
+
+.task-item:hover {
+    background-color: #eee;
+}
+
+.fr{
+    float: right;
+}
+
+.action{
+    color:#888;
+    font-size: 90%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.task-detail{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.task-detail .input-item{
+    margin-bottom: 10px;
+}
+
+textarea{
+    width:100%;
+    min-height: 100px;
+}
+
+.task-detail,
+.task-detail-mask{
+    position: absolute;
+    display: none;
+    overflow: auto;
+}
+
+.task-detail-mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(30,30,30,.6);
+}
+
+.task-detail .content{
+    padding: 10px 0;
+    font-weight: 1000;
+    width: 100%;
+    cursor: pointer;
+}
+
+.task-item.completed{
+    color:#aaa;
+    text-decoration: line-through;
+}
+
+.msg{
+    display: none;
+    text-align: center;
+}
+
+.alerter{
+    width:0;
+    height: 0;
+}
+

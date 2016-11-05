@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <div class="msg">
+        <span class="msg-content"></span>
+        <span class="anchor confirmed">知道了</span>
+    </div>
+    <div class="container">
+        <h1>日程管理待办事项</h1>
+        <form class="add-task">
+            <input name="content" type="text" placeholder="活动提醒内容" autofocus autocomplete="off">
+            <button type="submit">确定</button>
+        </form>
+        <ul class="task-list">
+            <!--<li class="task-item">
+                <span><input type="checkbox"></span>
+                <span class="task-content">item content 1</span>
+                <span>delete</span>
+                <span>detail</span>
+            </li>-->
+
+        </ul>
+        <div class="task-detail-mask"></div>
+        <div class="task-detail">
+            
+        </div>
+
+    </div>
+    <video class="alerter" src="xiaomi.mp3"></video>
+    <script src="node_modules/.1.9.1@jquery/jquery.min.js"></script>
+    <script src="node_modules/store/store.js"></script>
+    <script src="node_modules/jquery-datetimepicker/build/jquery.datetimepicker.full.min.js"></script>
+    <script src="js/base.js"></script>
+</body>
+
+</html>
